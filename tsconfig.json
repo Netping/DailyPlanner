@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2017",
+    "module": "esNext",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "types": [
+      "node",
+      "chrome",
+      "jquery",
+      "bootstrap"
+    ],
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "baseUrl": "./src"
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}

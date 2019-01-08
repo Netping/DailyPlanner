@@ -1,0 +1,18 @@
+{
+  "name": "TeamWork",
+  "version": "0.1.2",
+  "description": "TeamWork tasks reader",
+  "permissions": [
+    "storage",
+    "*://*.teamwork.com/*",
+    "*://*.eu.teamwork.com/*",
+    "*://*.teamworkpm.net/*"
+  ],
+  "browser_action": {
+    "default_title": "TeamWork",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}

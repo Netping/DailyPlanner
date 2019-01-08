@@ -1,0 +1,16 @@
+<div>
+    <div v-if="state == 'loading'" class="lds-roller-wrapper">
+        <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <login-required v-if="state == 'login-required'"></login-required>
+    <tasks v-if="state == 'tasks'"></tasks>
+</div>
